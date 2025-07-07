@@ -15,7 +15,7 @@ async function handleRequest(request, env) {
 
     // 启用 CORS
     const corsHeaders = {
-        'Access-Control-Allow-Origin': '*', // 生产环境中应替换为您的前端域名
+        'Access-Control-Allow-Origin': 'https://no.917999.xyz', // 生产环境中应替换为您的前端域名
         'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type',
     };
